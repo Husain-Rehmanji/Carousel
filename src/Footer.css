@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+.noclash{
+    position: relative;
+    width: 100%;
+    background-color: #1eb2a6;
+    padding: 10px 30px;
+}
+.webfooter{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.footercontent{
+    margin: 10px 50px;
+    align-items: center;
+}
+.menufooter{
+    margin: 10px 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.fhead{
+    text-align: center;
+    color: white;
+}
+
+.tagline{
+    font-size: 22.5px;
+    color: white;
+   
+    text-align: center;
+}
+.icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 0px;
+}
+.icons li,.menu li{
+    list-style: none;
+}
+.icons li a{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.829);
+    margin: 0px 7px;
+    display: inline-block;
+}
+.icons li a:hover,.menu li a:hover{
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+.menu li a{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.875);
+    margin: 0px 7px;
+    align-items:center;
+    text-decoration: none;
+}
+.menu li{
+    text-align: center;
+}
+.contact{
+    margin: 7px 0;
+    text-align: center;
+}
+.contact h2{
+    color: rgb(255, 255, 255);
+  
+}
+.contact b{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+}
+.contact b:hover{
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .newsletter input[type='text'] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .newsletter button {
+    padding: 5px 10px;
+    background-color: #1eb2a6;
+    color: #ffffff;
+    border:  #ffffff00;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.85;
+  }
+  
+  .newsletter button:hover {
+    opacity: 1;
+  }
+  .horizontal-space {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .horizontal-space hr {
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 0 auto;
+    width: 98%;
+    margin-bottom: 15px;
+  }
+  
+  .horizontal-space h3 {
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+  }

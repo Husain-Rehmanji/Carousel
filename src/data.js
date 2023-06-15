@@ -412,3 +412,132 @@ export const homeAbout = [
       cover: "./images/testo/t3.webp",
     },
   ]
+
+  export const Projects = [
+    {
+      id: 1,
+      cover: "../images/courses/c1.png",
+      coursesName: "Proj1",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person1",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+    {
+      id: 2,
+      cover: "../images/courses/c2.png",
+      coursesName: "Proj2",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person2",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+    {
+      id: 3,
+      cover: "../images/courses/c3.png",
+      coursesName: "Proj3",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person3",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+    {
+      id: 4,
+      cover: "../images/courses/c4.png",
+      coursesName: "Proj4",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person4",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+    {
+      id: 5,
+      cover: "../images/courses/c5.png",
+      coursesName: "Proj5",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person5",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+    {
+      id: 6,
+      cover: "../images/courses/c6.png",
+      coursesName: "Proj6",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person6",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+    {
+      id: 7,
+      cover: "../images/courses/c7.png",
+      coursesName: "Proj7",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person7",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+    {
+      id: 8,
+      cover: "../images/courses/c8.png",
+      coursesName: "Proj8",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person8",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+    {
+      id: 9,
+      cover: "../images/courses/c9.png",
+      coursesName: "Proj9",
+      courTeacher: [
+        {
+          dcover: "./images/back.jpg",
+          name: "by Person9",
+          totalTime: "50 lectures (190 hrs)",
+        },
+      ],
+      priceAll: "Description",
+      pricePer: "$15 per month",
+    },
+  ]

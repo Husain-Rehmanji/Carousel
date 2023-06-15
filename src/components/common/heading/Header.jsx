@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Head from './Head'
 import './header.css'
-import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [click, setClick] = useState(false)
@@ -16,7 +16,8 @@ const Header = () => {
                 <li><Link to="/courses"> COURSES </Link></li>
                 <li><Link to="/projects"> PROJECTS </Link></li>
                 <li><Link to="/blog"> BLOG </Link></li>
-                <li><Link to="/events"> TEAM EVENTS </Link></li>
+                <li><Link to="/team"> TEAM </Link></li>
+                <li><Link to="/events"> EVENTS </Link></li>
                 <li><Link to="/faqs"> FAQS </Link></li>
                 <li><Link to="/review"> REVIEWS </Link></li>
                 <li><Link to="/contact"> CONTACT </Link></li>

@@ -48,8 +48,8 @@ export const homeAbout = [
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by John Smith",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "50 lectures (190 hrs)",
         },
       ],
@@ -62,8 +62,8 @@ export const homeAbout = [
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Ram Gurung",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "30 lectures (125 hrs)",
         },
       ],
@@ -76,8 +76,8 @@ export const homeAbout = [
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Saroj Nepal",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "50 lectures (50 hrs)",
         },
       ],
@@ -90,8 +90,8 @@ export const homeAbout = [
       coursesName: "Introducing to Programming with WordPress",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Prabin Thapa Mager",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "20 lectures (20 hrs)",
         },
       ],
@@ -104,8 +104,8 @@ export const homeAbout = [
       coursesName: "Introducing to Programming with ReactJS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Sunil Bishowkaram",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "100 lectures (150 hrs)",
         },
       ],
@@ -118,8 +118,8 @@ export const homeAbout = [
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Sunil Bishowkaram",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "200 lectures (300 hrs)",
         },
       ],
@@ -132,8 +132,8 @@ export const homeAbout = [
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Price",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "20 lectures (50 hrs)",
         },
       ],
@@ -146,8 +146,8 @@ export const homeAbout = [
       coursesName: "Introducing to with JAVA",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Petter",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "80 lectures (200 hrs)",
         },
       ],
@@ -160,8 +160,8 @@ export const homeAbout = [
       coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Petter",
+          dcover: "./images/back.jpg",
+          name: "by Peter",
           totalTime: "50 lectures (50 hrs)",
         },
       ],
@@ -191,7 +191,7 @@ export const homeAbout = [
     {
       cover: "./images/courses/online/o4.png",
       hoverCover: "./images/courses/online/o4.1.png",
-      courseName: "History & Archeologic",
+      courseName: "History & Archeology",
       course: "15 Courses",
     },
     {
@@ -412,3 +412,40 @@ export const homeAbout = [
       cover: "./images/testo/t3.webp",
     },
   ]
+
+  const data = [
+    {
+      id: 1,
+      image: "/images/Person1.jpeg",
+      name: "Haryy Stamper",
+      title: "manager",
+      quote:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+    },
+    {
+      id: 2,
+      image: "/images/Person2.png",
+      name: "James Gun",
+      title: "Project Manager",
+      quote:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+    },
+    {
+      id: 3,
+      image: "/images/Person3.jpg",
+      name: "Michael Mosely",
+      title: "Product Manager",
+      quote:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    },
+    {
+      id: 4,
+      image: "/images/Person4.jpg",
+      name: "James Van",
+      title: "Vice President",
+      quote:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    },
+  ];
+  
+  export default data;  

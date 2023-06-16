@@ -427,6 +427,9 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
     {
       id: 2,
@@ -441,6 +444,9 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
     {
       id: 3,
@@ -455,6 +461,9 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
     {
       id: 4,
@@ -469,6 +478,9 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
     {
       id: 5,
@@ -483,6 +495,9 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
     {
       id: 6,
@@ -497,6 +512,9 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
     {
       id: 7,
@@ -511,6 +529,9 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
     {
       id: 8,
@@ -525,6 +546,9 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
     {
       id: 9,
@@ -539,5 +563,8 @@ export const homeAbout = [
       ],
       priceAll: "Description",
       pricePer: "$15 per month",
+      image: "./public/images/back2.jpg", 
+      dateCompleted: "June 2022", 
+      description: "This is a Java project description.",
     },
   ]

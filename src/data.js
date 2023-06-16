@@ -340,7 +340,7 @@ export const homeAbout = [
       date: "JAN. 18, 2021",
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus suscipit reprehenderit repellendus quisquam, sint eveniet debitis. Debitis reiciendis obcaecati voluptatibus, culpa cupiditate unde, laborum ipsa rerum quisquam animi atque.",
       cover: "../images/blog/b1.webp",
     },
     {
@@ -349,7 +349,7 @@ export const homeAbout = [
       date: "API. 25, 2022",
       com: "5 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus suscipit reprehenderit repellendus quisquam, sint eveniet debitis. Debitis reiciendis obcaecati voluptatibus, culpa cupiditate unde, laborum ipsa rerum quisquam animi atque.",
       cover: "../images/blog/b2.webp",
     },
     {
@@ -358,7 +358,7 @@ export const homeAbout = [
       date: "MAY. 15, 2022",
       com: "10 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus suscipit reprehenderit repellendus quisquam, sint eveniet debitis. Debitis reiciendis obcaecati voluptatibus, culpa cupiditate unde, laborum ipsa rerum quisquam animi atque.",
       cover: "../images/blog/b3.webp",
     },
     {
@@ -367,7 +367,7 @@ export const homeAbout = [
       date: "JAN. 02, 2022",
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus suscipit reprehenderit repellendus quisquam, sint eveniet debitis. Debitis reiciendis obcaecati voluptatibus, culpa cupiditate unde, laborum ipsa rerum quisquam animi atque.",
       cover: "../images/blog/b4.webp",
     },
     {
@@ -376,7 +376,7 @@ export const homeAbout = [
       date: "DEC. 14, 2022",
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus suscipit reprehenderit repellendus quisquam, sint eveniet debitis. Debitis reiciendis obcaecati voluptatibus, culpa cupiditate unde, laborum ipsa rerum quisquam animi atque.",
       cover: "../images/blog/b5.webp",
     },
     {
@@ -385,7 +385,7 @@ export const homeAbout = [
       date: "JAN. 18, 2021",
       com: "12 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus suscipit reprehenderit repellendus quisquam, sint eveniet debitis. Debitis reiciendis obcaecati voluptatibus, culpa cupiditate unde, laborum ipsa rerum quisquam animi atque.",
       cover: "../images/blog/b6.webp",
     },
   ]

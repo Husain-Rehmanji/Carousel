@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom/cjs/react-router-dom.min"
 
 const Head = () => {
   return (
@@ -12,7 +13,7 @@ const Head = () => {
 
           <div className='social'>
             <div>
-                <div className="star">LOG IN</div>
+                <div className="star"><Link to="/login" style={{ color: '#FFF' }}> LOG IN </Link> </div>
                 <div className="star">SIGN UP</div>
             </div>
           </div>

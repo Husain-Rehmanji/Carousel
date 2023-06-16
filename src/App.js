@@ -1,11 +1,15 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import "../src/components/login/login.css";
 import "./App.css";
 import Slider from './components/Slider/Slider';
 import About from './components/about/About';
 import CourseHome from './components/allcourses/CourseHome';
+import Blog from './components/blog/Blog';
 import Header from './components/common/heading/Header';
 import faqs from './components/faqs/faqs';
+import Footer from './components/footer/Footer';
+import Login from './components/login/Login';
 import Review from './components/review/review';
 import Team from './components/team/Team';
 
@@ -22,8 +26,12 @@ const App = () => {
         <Route path='/team' exact component={Team} />
         <Route path='/faqs' exact component={faqs} />
         <Route path='/review' exact component={Review} />
+        <Route path='/blog' exact component={Blog} />
+        <div className="page"><Route path='/login' exact component={Login} /></div>
+        
       </Switch>
-     </Router>      
+      <Footer />
+     </Router>
     </>
   )
 }

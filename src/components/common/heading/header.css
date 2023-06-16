@@ -37,6 +37,7 @@ header ul li a {
   /* Button styles */
 .star {
   display: inline-block;
+  margin-right: 10px;
   padding: 10px 20px;
   font-size: 16px;
   text-align: center;

@@ -1,6 +1,7 @@
 import React from 'react';
+import { FaCalendarAlt, FaClock, FaImage } from 'react-icons/fa';
 
-const EventCard = ({ image, name, description, date }) => {
+const EventCard = ({ icon, name, description, date }) => {
   return (
     <div
       style={{
@@ -15,40 +16,45 @@ const EventCard = ({ image, name, description, date }) => {
         padding: '1rem',
       }}
     >
-      <img src={image} alt="Event" style={{ width: '150px', marginRight: '2.5rem' }} />
+      <div style={{ marginRight: '2.5rem' }}>
+        {icon}
+      </div>
       <div>
-        <h2 style={{color: '#139c90', marginBottom: '0.7rem'}}>{name}</h2>
+        <h2 style={{ color: '#139c90', marginBottom: '0.7rem' }}>{name}</h2>
         <p>{description}</p>
       </div>
-      <div style={{ marginLeft: 'auto', color: 'white', fontSize: '27px' }}>{date}</div>
+      <div style={{ marginLeft: 'auto', color: 'white', fontSize: '27px' }}>
+        <FaCalendarAlt style={{ marginRight: '0.5rem' }} />
+        {date}
+      </div>
     </div>
   );
 };
 
 const EventsPage = () => {
   return (
-    <div style={{marginTop: '45rem'}}>
+    <div style={{ marginTop: '45rem' }}>
 
       <EventCard
-        image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/640px-New_york_times_square-terabass.jpg"
+        icon={<FaImage size={48} color="#1eb2a6" />}
         name="Event 4 - UPCOMING"
         description="Event 4 description goes here"
         date="Event 4 date"
       />
       <EventCard
-        image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/640px-New_york_times_square-terabass.jpg"
+        icon={<FaImage size={48} color="#1eb2a6" />}
         name="Event 3"
         description="Event 3 description goes here"
         date="Event 3 date"
       />
       <EventCard
-        image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/640px-New_york_times_square-terabass.jpg"
+        icon={<FaImage size={48} color="#1eb2a6" />}
         name="Event 2"
         description="Event 2 description goes here"
         date="Event 2 date"
       />
       <EventCard
-        image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/640px-New_york_times_square-terabass.jpg"
+        icon={<FaImage size={48} color="#1eb2a6" />}
         name="Event 1"
         description="Event 1 description goes here"
         date="Event 1 date"

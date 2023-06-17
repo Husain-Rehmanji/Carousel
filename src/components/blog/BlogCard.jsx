@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { blog } from '../../data'
 import "./blog.css"
 
@@ -27,7 +28,7 @@ const BlogCard = () => {
                         <label htmlFor=''>{val.com}</label>
                     </span>
                 </div>
-                <h1>{val.title}</h1>
+                <h1><Link to={{ pathname: "https://medium.com/@davidpogue/my-first-immersion-in-apple-vision-pro-heavy-man-d99f0a940c7c" }} target="_blank">{val.title}</Link></h1>
                 <p>{val.desc}</p>
             </div>
         </div>

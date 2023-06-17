@@ -35,8 +35,18 @@ const Footer = () => {
         <div className="contact">
           <h2><u>Subscribe to our newsletter</u></h2>
           <div className="newsletter">
-            <input type="text" placeholder="Enter your email" />
-            <button>Join Now</button>
+          <form action="#" method="POST" className="NewsLetter">
+              <input type="email" name='Email' placeholder="Enter your email" required/>  
+              <input type="submit" value="Join Now" className='button' style={{
+                backgroundColor: '#1eb2a6',
+                color: '#ffffff',
+                marginLeft: '10px',
+                border:  '#ffffff00',
+                borderRadius: 4,
+                cursor: 'pointer',
+                opacity: 0.85
+              }}/>
+              </form>
           </div>
         </div>
       </div>

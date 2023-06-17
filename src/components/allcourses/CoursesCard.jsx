@@ -1,8 +1,19 @@
-import React from "react"
-import { coursesCard } from "../../data"
-import "./courses.css"
+import React, { useState } from "react";
+import { coursesCard } from "../../data";
+import "./courses.css";
 
 const CoursesCard = () => {
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
+
+  if(modal) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
   return (
     <>
       <section className='coursesCard'>
@@ -47,7 +58,24 @@ const CoursesCard = () => {
                   {val.priceAll} / {val.pricePer}
                 </h3>
               </div>
-              <button className='outline-btn'><h4>ENROLL NOW !</h4></button>
+              <button onClick={toggleModal} className='outline-btn'><h4> ENROLL NOW !</h4></button>
+              {modal && (
+        <div className="modal">
+          <div onClick={toggleModal} className="overlay"></div>
+          <div className="modal-content">
+            <span>HTML, CSS, And Javascript For Web Developers</span>
+            <hr style={ {marginBottom: "20px",} }/>
+            <img src="./images/sample.png" style={{ width: '400px', height: '300px', }} alt="" />
+            <h1 style={ {textDecoration: 'underline'} }>Course Details</h1>
+            <p>
+              Introduction to HTML,HTML Elements and Tags: Text Formatting and Links :Formatting text using HTML tags (e.g., headings, paragraphs, emphasis) ,Creating hyperlinks to navigate between web pages,Lists and Tables, Working with Images and Multimedia, HTML Forms, Exploring the new features introduced in HTML5 (e.g., video, audio, canvas), Working with HTML tags to structure web pages (e.g., headers, footers, navigation)
+            </p>
+            <button className="close-modal" onClick={toggleModal}>
+              CLOSE
+            </button>
+          </div>
+        </div>
+      )}
             </div>
           ))}
         </div>
